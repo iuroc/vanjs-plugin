@@ -1,6 +1,6 @@
 {
     "name": "@iuroc/vanjs-plugin",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "types": "./dist/index.d.mts",
     "exports": "./dist/index.mjs",
     "description": "A lightweight plugin for van.js adding CSS utilities, reactive style support, color palette, and state detection.",
@@ -26,10 +26,10 @@
     "packageManager": "pnpm@10.17.1",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/bestroc/vanjs-plugin.git"
+        "url": "git+https://github.com/iuroc/vanjs-plugin.git"
     },
     "bugs": {
-        "url": "https://github.com/bestroc/vanjs-plugin/issues"
+        "url": "https://github.com/iuroc/vanjs-plugin/issues"
     },
-    "homepage": "https://github.com/bestroc/vanjs-plugin#readme"
+    "homepage": "https://github.com/iuroc/vanjs-plugin#readme"
 }
