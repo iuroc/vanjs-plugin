@@ -2,6 +2,15 @@ import { Properties } from 'csstype'
 import van, { State, Val } from 'vanjs-core'
 import bsColor from './color'
 
+declare module 'vanjs-core' {
+    interface Van {
+        css: typeof makeCSS
+        style: typeof applyStyle
+        color: typeof bsColor
+        isState: typeof isState
+    }
+}
+
 /**
  * Convert camelCase string to kebab-case.
  * 

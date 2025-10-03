@@ -1,3 +1,4 @@
+/** Bootstrap V5 based color scheme. */
 const bsColor: BSColor = {
     gray: {
         default: '#6c757d',

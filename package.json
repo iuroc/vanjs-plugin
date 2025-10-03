@@ -1,15 +1,19 @@
 {
     "name": "@iuroc/vanjs-plugin",
     "version": "1.0.0",
+    "types": "./dist/index.d.mts",
+    "exports": "./dist/index.mjs",
     "description": "A lightweight plugin for van.js adding CSS utilities, reactive style support, color palette, and state detection.",
-    "main": "index.js",
     "scripts": {
         "dev": "vite",
-        "build": "vite build",
+        "build:vite": "vite build",
+        "build": "pkgroll --minify --clean-dist --sourcemap",
         "preview": "vite preview"
     },
     "type": "module",
     "devDependencies": {
+        "pkgroll": "^2.17.0",
+        "typescript": "^5.9.3",
         "vite": "^7.1.9"
     },
     "dependencies": {
