@@ -1,2 +1,4 @@
 src/
-.gitignore
+index.html
+tsconfig.json
+pnpm-lock.yaml
